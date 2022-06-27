@@ -28,10 +28,14 @@ html, body {
   height: 12rem;
 }
 
-#header-name {
+.header-name {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 10rem;
   color: #bbbbbb;
+}
+
+#box-2 {
+  padding-top: 5rem;
 }
 
 #description {
@@ -45,4 +49,8 @@ html, body {
   color: #bbbbbb;
   padding: 3rem 20rem;
   font-size: 1.5rem;
+}
+
+.project-photo {
+  padding: 3rem 12rem;
 }
