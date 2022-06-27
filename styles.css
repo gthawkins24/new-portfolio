@@ -54,3 +54,7 @@ html, body {
 .project-photo {
   padding: 3rem 12rem;
 }
+
+#text-header {
+  width: 100%;
+}
