@@ -4,12 +4,12 @@ html, body {
 }
 
 .box-1 {
-  background-color: rgb(14, 2, 31);
+  background-color: rgb(20, 13, 26);
   height: 100%;
   padding-top: 6rem;
 }
 
-.box-2 {
+#projects {
   background-color: red;
   height: 100%;
 }
@@ -31,9 +31,18 @@ html, body {
 #header-name {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 10rem;
-  color: #FFFDD0;
+  color: #bbbbbb;
 }
 
 #description {
-  color: #FFFDD0;
+  color: #bbbbbb;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+
+#info-paragraph {
+  color: #bbbbbb;
+  padding: 3rem 20rem;
+  font-size: 1.5rem;
 }
