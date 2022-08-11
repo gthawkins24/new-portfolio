@@ -85,3 +85,8 @@ a {
 #resume-box h2 {
   text-align: center;
 }
+
+#resume-pdf {
+  display: flex;
+  align-self: center;
+}
