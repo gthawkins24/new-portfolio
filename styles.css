@@ -10,7 +10,7 @@ html, body {
 }
 
 #projects {
-  background-color: red;
+  background-color: rgb(99, 99, 102);
   height: 100%;
 }
 
@@ -75,4 +75,13 @@ a {
 .text-header {
   white-space: nowrap;
   font-size: 3rem;
+}
+
+#resume-box {
+  height: 100%;
+  background-color: green;
+}
+
+#resume-box h2 {
+  text-align: center;
 }
