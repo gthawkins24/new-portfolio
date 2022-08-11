@@ -80,6 +80,9 @@ a {
 #resume-box {
   height: 100%;
   background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #resume-box h2 {
@@ -87,6 +90,5 @@ a {
 }
 
 #resume-pdf {
-  display: flex;
-  align-self: center;
+
 }
