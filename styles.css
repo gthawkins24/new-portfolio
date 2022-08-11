@@ -26,6 +26,7 @@ html, body {
 #selfie {
   border-radius: 50%;
   height: 12rem;
+  width: 12rem;
 }
 
 .header-name {
@@ -52,9 +53,26 @@ html, body {
 }
 
 .project-photo {
-  padding: 3rem 12rem;
+  flex-direction: column;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  text-align: center;
 }
 
-#text-header {
-  width: 100%;
+a {
+  display: block;
+  text-decoration: none;
+  color:rgb(20, 13, 26);
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+.text-header {
+  white-space: nowrap;
+  font-size: 3rem;
 }
