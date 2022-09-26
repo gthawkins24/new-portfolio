@@ -88,3 +88,14 @@ a {
 #resume-box h2 {
   text-align: center;
 }
+
+#test-p {
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .header-name {
+    color: green;
+    justify-content: center;
+  }
+}
